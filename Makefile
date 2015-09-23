@@ -31,7 +31,7 @@ NUTTX_ROOT ?= ./nuttx
 TOPDIR := $(NUTTX_ROOT)/nuttx
 BUILDDIR := $(NUTTX_ROOT)/oot/nuttx
 
-obj += board-skeleton.o
+obj += board-camera.o
 
 -include $(NUTTX_ROOT)/nuttx/.config
 -include $(NUTTX_ROOT)/nuttx/arch/arm/src/armv7-m/Toolchain.defs

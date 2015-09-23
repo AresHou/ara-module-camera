@@ -25,7 +25,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
- * Author: Fabien Parent <fparent@baylibre.com>
+ * Author: Laurent Pinchart <laurent.pinchart@ideasonboard.com>
  */
 
 #include <syslog.h>
@@ -36,5 +36,5 @@ void ara_module_early_init(void)
 
 void ara_module_init(void)
 {
-    lowsyslog("Skeleton Module init\n");
+    lowsyslog("Camera Module init\n");
 }
